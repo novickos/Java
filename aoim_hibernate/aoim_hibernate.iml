@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="FacetManager">
+    <facet type="jpa" name="JPA">
+      <configuration>
+        <setting name="validation-enabled" value="true" />
+        <setting name="provider-name" value="Hibernate" />
+        <datasource-mapping>
+          <factory-entry name="aoim_hibernate" value="09dcf9fb-8873-4af0-9703-e1b65ae3e486" />
+          <factory-entry name="default" />
+        </datasource-mapping>
+        <naming-strategy-map>
+          <unit-entry name="aoim_hibernate" />
+        </naming-strategy-map>
+        <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/src/main/resources/META-INF/persistence.xml" />
+      </configuration>
+    </facet>
+  </component>
+</module>
